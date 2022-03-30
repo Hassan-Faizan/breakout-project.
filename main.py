@@ -1,3 +1,4 @@
+import random
 import turtle
 from random import randint
 
@@ -22,7 +23,7 @@ ball = turtle.Turtle()
 ball.penup()
 ball.shape('circle')
 ball.goto(0, -(S_HEIGHT/2 - 100))
-ball.dx = randint(-3, 3)
+ball.dx = random.choice([-3, -2, -1, 1, 2, 3])
 ball.dy = 2
 ball.score = 0
 
