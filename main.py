@@ -57,11 +57,16 @@ for n in range(4):
 
 # paddles
 def paddle_right():
+    if paddle.xcor() > 300:
+        return
     new_x = paddle.xcor() + 20
     paddle.setx(new_x)
 
 
 def paddle_left():
+    if paddle.xcor() < -300:
+        return
+    
     new_x = paddle.xcor() - 20
     paddle.setx(new_x)
 
