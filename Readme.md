@@ -1,7 +1,7 @@
 # About Project
 This game was made as a portfolio project during Udemy course "100 days of Code: Python pro bootcamp"
 This was no solution provided by mentor and no breakout game tutorial was followed so this is my own copyrigth code
-The height and width of game is flexible, you can change it accordingly
+The height and width of game is flexible, you can change it accordingly.
 
 ## Flow of Project
 program flow starts in while loop
