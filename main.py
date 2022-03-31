@@ -1,6 +1,5 @@
 import random
 import turtle
-from random import randint
 
 S_HEIGHT = 550
 S_WIDTH = 800
@@ -74,7 +73,6 @@ s.onkeypress(paddle_left, 'Left')
 game_is_on = True
 while game_is_on:
     s.update()
-    # time.sleep(0.01)
 
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
